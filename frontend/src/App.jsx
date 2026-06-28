@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 // Apna local backend URL
-const API_URL = 'http://localhost:8000/api/tasks';
+const API_URL = "https://task-tracker-mern-ipsw.onrender.com";
 
 function App() {
     const [tasks, setTasks] = useState([]);
