@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'; // <--- YE IMPORT MISSING THA!
 import axios from 'axios';
 import './App.css';
 
-const API_URL = "https://task-tracker-mern-ipsw.onrender.com";
+const API_URL = "https://task-tracker-mern-ipsw.onrender.com/api/tasks";
 
 function App() {
     // Initial state ek khali array [] rakha hai taaki .map() crash na ho
