@@ -66,7 +66,7 @@ function App() {
 
     return (
         <div className="container">
-            <h1>MERN Task Tracker</h1>
+            <h1> Task Tracker</h1>
 
             {/* Task Banane Ka Form */}
             <form onSubmit={addTask} className="task-form">
