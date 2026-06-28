@@ -104,7 +104,7 @@ function App() {
                         </div>
                     </div>
                 ))}
-                {tasks.length === 0 && <p style={{textAlign: 'center', marginTop: '20px'}}>No tasks yet. Ek naya task add karo!</p>}
+                {tasks.length === 0 && <p style={{textAlign: 'center', marginTop: '20px'}}>No tasks yet. </p>}
             </div>
         </div>
     );
